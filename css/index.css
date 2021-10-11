@@ -266,6 +266,36 @@ li{
     text-align: end;
 }
 
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #bild img{
+        height: 300px;
+    }
+    #bild{
+        text-align: center !important;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #bild img{
+        height: 300px;
+    }
+    #bild{
+        text-align: center !important;
+    }
+}
+
+        /* Laptops 
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #{
+    }
+}*/
+
 /* frukost */
 
 #övre{
@@ -404,6 +434,33 @@ li{
     margin-bottom: 2%;
 }
 
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #socialt img{
+        float: none;
+        width: 380px;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #socialt img{
+        float: none;
+        width: 430px;
+    }
+}
+
+/* Laptops */
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #socialt img{
+        width: 600px;
+    }
+}
+
 /* stadgar */
 
 #övre{
@@ -540,6 +597,30 @@ h5{
     float: left;
     height: 80%;  
 }
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #utbildning{
+        margin-bottom: 20%;
+    }
+
+    #utbildning img{
+        float: none;
+        height: 65%;
+    }
+}
+/* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #utbildning{
+        margin-bottom: 30%;
+    }
+    #utbildning img{
+        height: 40%;
+        
+    }
+}
 
 /* vilka-är-vi */
 
@@ -561,4 +642,29 @@ h5{
 
 #presentation img{
     float: left;
+}
+
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #vi img{
+        width: 300px;
+        text-align: center !important;
+        float: none;
+    }
+
+    #presentation img{
+        float: none;
+        width: 150px;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #vi img{
+        width: 400px;
+        text-align: center !important;
+        float: none;
+    }
 }
