@@ -130,10 +130,31 @@ p {
     margin-bottom: 10%;
 }
 
-/* @media only screen and (max-width: ){
-    
-} */
+        /* Mobil */
+@media only screen and (max-width:480px){
+    #framsida img{
+        height: 250px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
+        /* Surfplatta */
+@media only screen and (max-width:768px){
+    #framsida img{
+        height: 350px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
 
+        /* Laptops */
+@media only screen and (max-width:1024px){
+    #framsida img{
+        height: 450px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+}
 
 /* adressuppgifter */
 #övre{
