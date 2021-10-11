@@ -131,7 +131,8 @@ p {
 }
 
         /* Mobil */
-@media only screen and (max-width:480px){
+@media only screen 
+and (max-width:480px){
     #framsida img{
         height: 250px;
         margin-top: 5%;
@@ -139,7 +140,9 @@ p {
     }
 }
         /* Surfplatta */
-@media only screen and (max-width:768px){
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
     #framsida img{
         height: 350px;
         margin-top: 5%;
@@ -148,7 +151,9 @@ p {
 }
 
         /* Laptops */
-@media only screen and (max-width:1024px){
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
     #framsida img{
         height: 450px;
         margin-top: 5%;
@@ -170,6 +175,36 @@ p {
 }
 #karta{
     text-align: end;
+}
+
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #karta img{
+        height: 350px;
+    }
+    #karta{
+        text-align: center;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #karta img{
+        height: 350px;
+    }
+    
+}
+
+        /* Laptops */
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #karta img{
+        height: 350px;
+    }
+    
 }
 
 /* blogg */
@@ -435,6 +470,36 @@ li{
 #sy{
     margin-top: 5%;
 }
+
+    /* Mobil */
+    @media only screen 
+    and (max-width:480px){
+        #sy-info img{
+            width:350px;   
+           }
+    }
+
+            /* Surfplatta */
+    @media only screen 
+    and (min-width:481px) 
+    and (max-width:768px){
+        #sy-info img{
+          width: 300px;
+        }
+        
+    }
+    
+
+    
+            /* Laptops */
+    @media only screen
+    and (min-width:769px) 
+    and (max-width:1024px){
+        #sy-info img{
+            width: 350px;
+        }
+    }
+    
 
 /* tårta */
 
