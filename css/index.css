@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+   font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headern/bilden "spiket" */
+#header a{
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    width: 100vw;
+}
+.navbar-toggler {
+    border: none;
+}
+  
+.navbar-toggler:active,
+.navbar-toggler:focus {
+    box-shadow: none;
+    color:rgb(145, 1, 1);
+}
+
+#navbarCollapse ul li ul li a:active{
+    background-color:#900909;
+}
+
+#navbarCollapse .navbar-nav .dropdown-menu .dropdown-item.active{
+    background-color:#900909;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 600;
+    margin: 0 0.7rem;
+}
+  
+.navbar-toggler .icon-bar {
+    display: block;
+    background-color: #6d6d6d;
+    height: 2px;
+    width: 22px;
+    margin: 4px 0;
+    border-radius: 5px;
+    opacity: 1;
+    transition: all 0.3s ease-out;
+    transform-origin: center left;
+}
+  
+/* Animate X */
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(1) {
+   transform: rotate(45deg);
+   transform-origin: 10% 10%;
+}
+  
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(2) {
+   opacity: 0;
+}
+  
+.navbar-toggler:not(.collapsed) .icon-bar:nth-child(3) {
+   transform: rotate(-45deg);
+   transform-origin: 10% 90%;
+} 
+  
+/* Animate Hamburger */
+.navbar-toggler .icon-bar:nth-child(1) {
+   transform: rotate(0);
+} 
+/* middle line goes back to regular color and opacity */
+.navbar-toggler .icon-bar:nth-child(2) {
+   opacity: 1;
+} 
+/* bottom line goes back to initial position and rotates back to 0 degrees */
+.navbar-toggler .icon-bar:nth-child(3) {
+   transform: rotate(0);
+}
+/* Footer */
+footer{
+    margin-top: 40px;
+}
+
+i{
+    color: blue;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.social {
+    font-size: 35px;
+    margin: 16px;
+}
+
+#sammarbete img{
+    height: 150px;
+}
+
+#förslag p, #beställning p, #öppet p{
+    font-size: 13px; 
+}
+
+#förslag img{
+    height: 100px;
+}
+#beställning img{
+    height: 60px;
+    width: 60px;
+    float: left;
+}
+
+/* Index */
+
+#framsida{
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#framsida img{
+    height: 600px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+/* @media only screen and (max-width: ){
+    
+} */
+
+
+/* adressuppgifter */
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+#adressuppg{
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+#karta{
+    text-align: end;
+}
+
+/* blogg */
+
+
+/* café */
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#övre p{
+    margin-top: 2%;
+}
+
+#café{
+    margin-top: 5%;
+}
+
+#café img{
+    margin-right: 5%;
+    float: left;
+    height: 80%;    
+}
+
+#café a{
+    color:black;
+}
+
+#café a:visited{
+    color:grey;
+}
+
+#café a:hover{
+    color:darkred;
+}
+
+
+li{
+    list-style: none;
+    
+}
+
+/* flaggor */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+#cocktailflaggor{
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+#bild{
+    text-align: end;
+}
+
+/* frukost */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#info{
+    margin-bottom: 10%;
+}
+#frukost-bild{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#frukost{
+    margin-top: 5%;
+}
+
+/* kakor */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#galleri{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#galleri p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#galleri img{
+    margin: auto;
+    padding: 0;
+}
+
+/* lego */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#lego img{
+    float: left;
+    margin-right: 3%;
+    width: 40%;
+}
+
+#lego{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+/* pasta-chark */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+#pastasallad, #charktallrik{
+    margin-top: 4%;
+    margin-bottom: 10%;
+}
+#bild{
+    text-align: end;
+}
+
+/* personal */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#styrelsen{
+    margin: auto;
+    max-width: 60%;
+    min-width: none;
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+    
+}
+#styrelsen h1{
+    margin-top: 3%;
+}
+
+/* prislista */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#övre p{
+    margin-top: 2%;
+}
+
+#prislista{
+    text-align: center; 
+    margin-bottom: 10%;
+}
+
+#prislista img{
+    margin-top: 2%;
+}
+
+/* Socialt kooperativ */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#socialt img{
+    float: left;
+    margin-right: 3%;
+}
+
+#socialt{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+/* stadgar */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#stadgar{
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+/* styrelsen */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#sammansättning{
+    margin-bottom: 10%;
+}
+#styrelse-bild{
+    text-align: center;
+}
+#styrelsen{
+    margin-top: 5%;
+}
+
+/* sy-bilder */
+
+#galleri{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#galleri p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#galleri img{
+    margin: auto;
+    padding: 0;
+}
+
+/* syataljé */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#sy-info{
+    margin-bottom: 10%;
+}
+#sy-bild{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#sy{
+    margin-top: 5%;
+}
+
+/* tårta */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#galleri{
+    margin-top: 5%;
+    margin-bottom: 15%;
+}
+
+#galleri p{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#galleri img{
+    margin: auto;
+    padding: 0;
+}
+h5{
+    color: black;
+}
+
+/* utbildning */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#utbildning img{
+    margin-right: 5%;
+    float: left;
+    height: 80%;  
+}
+
+/* vilka-är-vi */
+
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#vi img{
+    float: right;
+    margin-right: 3%;
+}
+
+#vi{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#presentation img{
+    float: left;
+}
