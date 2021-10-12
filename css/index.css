@@ -249,6 +249,35 @@ li{
     
 }
 
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #café img{
+        height: 250px;
+        float: none;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #café img{
+        height: 350px;
+        float: none;
+    }
+    
+}
+
+        /* Laptops */
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #café img{
+        height: 450px;
+    }
+    
+}
+
 /* flaggor */
 
 #övre{
