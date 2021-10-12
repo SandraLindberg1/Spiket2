@@ -150,7 +150,7 @@ and (max-width:768px){
         height: 30px;
         width: 30px;
     }
-    #sammarbete p, #förslag p, #beställning p, #öppet p{
+    #sammarbete p, #förslag p, #beställning p, #adress p{
         font-size: 15px;
     }
     
