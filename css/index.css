@@ -100,7 +100,7 @@ p {
 }
 
 .social img{
-    height: 20px;
+    height: 30px;
 }
 
 #sammarbete img{
@@ -117,9 +117,7 @@ p {
     width: 40px;
     float: left;
 }
-#förslag{
-    margin-top: 17px;
-}
+
 
 /* Mobil */
 @media only screen 
