@@ -99,6 +99,10 @@ p {
     margin: 16px;
 }
 
+.social img{
+    height: 20px;
+}
+
 #sammarbete img{
     height: 75px;
 }
