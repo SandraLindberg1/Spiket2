@@ -126,7 +126,7 @@ and (max-width:480px){
         height: 50px;
     }
     #förslag img{
-        height: 30px;
+        height: 33px;
     }
     #beställning img{
         height: 20px;
@@ -146,7 +146,7 @@ and (max-width:768px){
         height: 60px;
     }
     #förslag img{
-        height: 50px;
+        height: 53px;
     }
     #beställning img{
         height: 30px;
@@ -166,7 +166,7 @@ and (max-width:1024px){
         height: 50px;
     }
     #förslag img{
-        height: 80px;
+        height: 83px;
     }
     #beställning img{
         height: 50px;
