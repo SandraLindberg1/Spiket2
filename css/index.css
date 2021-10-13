@@ -110,7 +110,7 @@ p {
 
 #förslag img{
     height: 60px;
-    float: left;
+    
 }
 #beställning img{
     height: 40px;
@@ -196,7 +196,7 @@ and (max-width:1024px){
 and (max-width:480px){
     #framsida img{
         height: 250px;
-        width: 280px;
+        width: 300px;
         margin-top: 5%;
         margin-bottom: 10%;
     }
@@ -207,7 +207,7 @@ and (min-width:481px)
 and (max-width:768px){
     #framsida img{
         height: 350px;
-        width: 430px;
+        width: 450px;
         margin-top: 5%;
         margin-bottom: 10%;
     }
