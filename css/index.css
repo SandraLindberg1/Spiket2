@@ -5,6 +5,33 @@
     margin: 0;
     padding: 0;
 }
+/* Samma för alla sidor */
+#övre{
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    
+}
+#övre p{
+    margin-top: 2%;
+}
+#övre h2, #framsida h1{
+   color: rgb(164, 14, 95); 
+}
+#café a, #syataljé a, #framsida a, #sy-info a, #lego a, #frukost a, #vi a, #utbildning a,
+#personal a, #besökadress a{
+    color:rgb(164, 14, 95);
+}
+
+#café a:visited, #syataljé a:visited, #framsida a:visited, #sy-info a:visited, #lego a:visited,
+#frukost a:visited, #vi a:visited, #utbildning a:visited, #personal a:visited, #besökadress a:visited{
+    color:rgb(226, 76, 157);
+}
+
+#café a:hover, #syataljé a:hover, #framsida a:hover, #sy-info a:hover, #lego a:hover, #frukost a:hover,
+#vi a:hover, #utbildning a:hover, #personal a:hover, #besökadress a:hover{
+    color:rgb(254, 123, 193);
+}
 
 /* Headern/bilden "spiket" */
 #header a{
@@ -22,15 +49,15 @@
 .navbar-toggler:active,
 .navbar-toggler:focus {
     box-shadow: none;
-    color:rgb(145, 1, 1);
+    color:rgb(226, 76, 157);
 }
 
 #navbarCollapse ul li ul li a:active{
-    background-color:#900909;
+    background-color:rgb(226, 76, 157);
 }
 
 #navbarCollapse .navbar-nav .dropdown-menu .dropdown-item.active{
-    background-color:#900909;
+    background-color:rgb(226, 76, 157);
 }
 
 .navbar-nav .nav-link {
@@ -80,10 +107,6 @@
 /* Footer */
 footer{
     margin-top: 40px;
-}
-
-i{
-    color: blue;
 }
 
 .footer-content {
@@ -225,13 +248,6 @@ and (max-width:1024px){
 }
 
 /* adressuppgifter */
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-
 #adressuppg{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -274,16 +290,6 @@ and (max-width:1024px){
 
 
 /* café */
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-#övre p{
-    margin-top: 2%;
-}
-
 #café{
     margin-top: 5%;
 }
@@ -294,17 +300,17 @@ and (max-width:1024px){
     height: 80%;    
 }
 
-#café a{
-    color:black;
+/* #café a{
+    color:rgb(164, 14, 95);
 }
 
 #café a:visited{
-    color:grey;
+    color:rgb(226, 76, 157);
 }
 
 #café a:hover{
-    color:darkred;
-}
+    color:rgb(254, 123, 193);
+} */
 
 
 li{
@@ -342,14 +348,6 @@ and (max-width:1024px){
 }
 
 /* flaggor */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-
 #cocktailflaggor{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -389,13 +387,6 @@ and (max-width:1024px){
 }*/
 
 /* frukost */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #info{
     margin-bottom: 10%;
 }
@@ -408,13 +399,6 @@ and (max-width:1024px){
 }
 
 /* kakor */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #galleri{
     margin-top: 5%;
     margin-bottom: 15%;
@@ -431,13 +415,6 @@ and (max-width:1024px){
 }
 
 /* lego */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #lego img{
     float: left;
     margin-right: 3%;
@@ -450,14 +427,6 @@ and (max-width:1024px){
 }
 
 /* pasta-chark */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-
 #pastasallad, #charktallrik{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -467,13 +436,6 @@ and (max-width:1024px){
 }
 
 /* personal */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #personal{
     margin: auto;
     max-width: 60%;
@@ -488,17 +450,6 @@ and (max-width:1024px){
 }
 
 /* prislista */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
-#övre p{
-    margin-top: 2%;
-}
-
 #prislista{
     text-align: center; 
     margin-bottom: 10%;
@@ -509,13 +460,6 @@ and (max-width:1024px){
 }
 
 /* Socialt kooperativ */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #socialt img{
     float: left;
     margin-right: 3%;
@@ -554,26 +498,12 @@ and (max-width:1024px){
 }
 
 /* stadgar */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #stadgar{
     margin-top: 6%;
     margin-bottom: 6%;
 }
 
 /* styrelsen */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #sammansättning{
     margin-bottom: 10%;
 }
@@ -602,13 +532,6 @@ and (max-width:1024px){
 }
 
 /* syataljé */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #sy-info{
     margin-bottom: 10%;
 }
@@ -651,13 +574,6 @@ and (max-width:1024px){
     
 
 /* tårta */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #galleri{
     margin-top: 5%;
     margin-bottom: 15%;
@@ -677,13 +593,6 @@ h5{
 }
 
 /* utbildning */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #utbildning img{
     margin-right: 5%;
     float: left;
@@ -715,13 +624,6 @@ and (max-width:768px){
 }
 
 /* vilka-är-vi */
-
-#övre{
-    margin: auto;
-    margin-top: 5%;
-    text-align: center;
-}
-
 #vi img{
     float: right;
     margin-right: 3%;
