@@ -265,6 +265,9 @@ and (max-width:480px){
     #karta{
         text-align: center;
     }
+    #adressuppg{
+        text-align: center;
+    }
 }
         /* Surfplatta */
 @media only screen 
@@ -311,6 +314,9 @@ and (max-width:480px){
     #café img{
         height: 250px;
         float: none;
+    }
+    #café{
+        text-align: center;
     }
 }
         /* Surfplatta */
