@@ -426,6 +426,36 @@ and (max-width:1024px){
     margin-bottom: 2%;
 }
 
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #lego img{
+        float: none;
+        width: 300px;
+    }
+    #lego{
+        text-align: center;
+    }
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #lego img{
+        
+        width: 360px;
+    }
+}
+
+/* Laptops */
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #lego img{
+        width: 370px;
+    }
+}
+
 /* pasta-chark */
 #pastasallad, #charktallrik{
     margin-top: 4%;
@@ -547,7 +577,7 @@ and (max-width:1024px){
     @media only screen 
     and (max-width:480px){
         #sy-info img{
-            width:350px;   
+            width:300px;   
            }
     }
 
