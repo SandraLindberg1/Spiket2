@@ -300,19 +300,6 @@ and (max-width:1024px){
     height: 80%;    
 }
 
-/* #café a{
-    color:rgb(164, 14, 95);
-}
-
-#café a:visited{
-    color:rgb(226, 76, 157);
-}
-
-#café a:hover{
-    color:rgb(254, 123, 193);
-} */
-
-
 li{
     list-style: none;
     
@@ -397,6 +384,34 @@ and (max-width:1024px){
 #frukost{
     margin-top: 5%;
 }
+
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #frukost{
+        text-align: center;
+    }
+    #frukost img{
+        height: 300px;
+    }
+    
+}
+        /* Surfplatta */
+@media only screen 
+and (min-width:481px) 
+and (max-width:768px){
+    #bild img{
+        height: 300px;
+    }
+}
+
+        /* Laptops 
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #{
+    }
+}*/
 
 /* kakor */
 #galleri{
@@ -505,7 +520,10 @@ and (max-width:1024px){
 and (max-width:480px){
     #socialt img{
         float: none;
-        width: 380px;
+        width: 300px;
+    }
+    #socialt{
+        text-align: center;
     }
 }
         /* Surfplatta */
@@ -513,7 +531,7 @@ and (max-width:480px){
 and (min-width:481px) 
 and (max-width:768px){
     #socialt img{
-        float: none;
+        
         width: 430px;
     }
 }
@@ -542,6 +560,16 @@ and (max-width:1024px){
 }
 #styrelsen{
     margin-top: 5%;
+}
+/* Mobil */
+@media only screen 
+and (max-width:480px){
+    #sammansättning{
+        text-align: center;
+    }
+    #styrelsen img{
+        height: 300px;
+    }
 }
 
 /* sy-bilder */
@@ -578,7 +606,10 @@ and (max-width:1024px){
     and (max-width:480px){
         #sy-info img{
             width:300px;   
-           }
+        }
+        #sy-info{
+            text-align: center;
+        }
     }
 
             /* Surfplatta */
@@ -633,11 +664,12 @@ h5{
 and (max-width:480px){
     #utbildning{
         margin-bottom: 20%;
+        text-align: center;
     }
 
     #utbildning img{
         float: none;
-        height: 65%;
+        height: 300px;
     }
 }
 /* Surfplatta */
@@ -681,6 +713,9 @@ and (max-width:480px){
         float: none;
         width: 150px;
     }
+    #vi{
+        text-align: center; 
+    }
 }
         /* Surfplatta */
 @media only screen 
@@ -689,6 +724,10 @@ and (max-width:768px){
     #vi img{
         width: 400px;
         text-align: center !important;
+        
+    }
+    #presentation img{
         float: none;
+        width: 150px;
     }
 }
