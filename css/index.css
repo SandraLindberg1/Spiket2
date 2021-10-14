@@ -352,6 +352,9 @@ and (max-width:480px){
     #bild{
         text-align: center !important;
     }
+    #cocktailflaggor{
+        text-align: center;
+    }
 }
         /* Surfplatta */
 @media only screen 
