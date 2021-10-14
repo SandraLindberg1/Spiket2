@@ -647,10 +647,10 @@ and (max-width:480px){
 #galleri{
     margin-top: 5%;
     margin-bottom: 15%;
+    text-align: center;
 }
 
 #galleri p{
-    text-align: center;
     margin-bottom: 5%;
 }
 
@@ -660,6 +660,28 @@ and (max-width:480px){
 }
 h5{
     color: black;
+}
+
+#galleri a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+  
+#galleri a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+#galleri .previous {
+    background-color: #f1f1f1;
+    color: black;
+    
+}
+  
+#galleri .round {
+    border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 /* utbildning */
