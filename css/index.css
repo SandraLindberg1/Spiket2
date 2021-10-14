@@ -668,6 +668,10 @@ h5{
     float: left;
     height: 80%;  
 }
+#sammarbets img{
+    height: 40px;
+}
+
 /* Mobil */
 @media only screen 
 and (max-width:480px){
@@ -680,6 +684,9 @@ and (max-width:480px){
         float: none;
         height: 300px;
     }
+    #sammarbets img{
+        height: 40px;
+    }
 }
 /* Surfplatta */
 @media only screen 
@@ -691,6 +698,9 @@ and (max-width:768px){
     #utbildning img{
         height: 40%;
         
+    }
+    #sammarbets img{
+        height: 40px;
     }
 }
 
