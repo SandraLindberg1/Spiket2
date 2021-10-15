@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-/* Samma för alla sidor */
+/* ---------- Samma för alla sidor------------ */
 #övre{
     margin: auto;
     margin-top: 5%;
@@ -141,68 +141,7 @@ p {
     float: left;
 }
 
-
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #sammarbete img{
-        height: 50px;
-        margin-bottom: -70px;
-    }
-    #förslag img{
-        height: 33px;
-    }
-    #beställning img{
-        height: 20px;
-        width: 20px;
-    }
-
-    #sammarbete p, #förslag p, #beställning p, #adress p{
-        font-size: 10px;
-    }
-    
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #sammarbete img{
-        height: 60px;
-        margin-bottom: -90px;
-    }
-    #förslag img{
-        height: 53px;
-    }
-    #beställning img{
-        height: 30px;
-        width: 30px;
-    }
-    #sammarbete p, #förslag p, #beställning p, #adress p{
-        font-size: 10px;
-    }
-    
-}
-
-        /* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #sammarbete img{
-        height: 50px;
-    }
-    #förslag img{
-        height: 83px;
-    }
-    #beställning img{
-        height: 50px;
-        width: 50px;
-    }
-    #sammarbete p, #förslag p, #beställning p, #adress p{
-        font-size: 15px;
-    }  
-}
-
-/* Index */
+/*------------- Index-------------------- */
 
 #framsida{
     margin: auto;
@@ -216,40 +155,7 @@ and (max-width:1024px){
     margin-bottom: 10%;
 }
 
-        /* Mobil */
-@media only screen 
-and (max-width:480px){
-    #framsida img{
-        height: 210px;
-        width: 320px;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #framsida img{
-        height: 350px;
-        width: 470px;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-}
-
-        /* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #framsida img{
-        height: 450px;
-        margin-top: 5%;
-        margin-bottom: 10%;
-    }
-}
-
-/* adressuppgifter */
+/*--------------- adressuppgifter----------------- */
 #adressuppg{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -258,101 +164,26 @@ and (max-width:1024px){
     text-align: end;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #karta img{
-        height: 250px;
-    }
-    #karta{
-        text-align: center;
-    }
-    #adressuppg{
-        text-align: center;
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #karta img{
-        height: 300px;
-    }
-    #karta{
-        text-align: center;
-    }
-    #adressuppg{
-        text-align: center;
-    }
-    
-}
 
-        /* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #karta img{
-        height: 350px;
-    }
-    
-}
-
-/* blogg */
+/* ------------------blogg -------------------------*/
 
 
-/* café */
+/*------------------------- café-------------------------- */
 #café{
     margin-top: 5%;
+    text-align: center;
 }
 
 #café img{
-    float: right;
-    height: 450px;        
+    float: left;
+    height: 440px;        
 }
-
 li{
     list-style: none;
     
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #café img{
-        height: 250px;
-        float: none;
-        margin-bottom: 10px;
-    }
-    #café{
-        text-align: center;
-        
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #café img{
-        height: 270px;
-        float: none;
-        margin-bottom: 10px;
-    }
-    #café{
-        text-align: center;
-    }
-}
-
-        /* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #café img{
-        height: 300px;
-    }
-    
-}
-
-/* flaggor */
+/*--------------- flaggor--------------- */
 #cocktailflaggor{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -361,40 +192,7 @@ and (max-width:1024px){
     text-align: end;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #bild img{
-        height: 300px;
-    }
-    #bild{
-        text-align: center !important;
-    }
-    #cocktailflaggor{
-        text-align: center;
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #bild img{
-        height: 300px;
-    }
-    #bild{
-        text-align: center !important;
-    }
-}
-
-        /* Laptops 
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #{
-    }
-}*/
-
-/* frukost */
+/*--------------- frukost ------------------*/
 #info{
     margin-bottom: 10%;
 }
@@ -406,51 +204,7 @@ and (max-width:1024px){
     margin-top: 5%;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #frukost{
-        text-align: center;
-    }
-    #frukost img{
-        height: 300px;
-    }
-    
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #bild img{
-        height: 300px;
-    }
-}
-
-        /* Laptops 
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #{
-    }
-}*/
-
-/* kakor */
-#galleri{
-    margin-top: 5%;
-    margin-bottom: 15%;
-}
-
-#galleri p{
-    text-align: center;
-    margin-bottom: 5%;
-}
-
-#galleri img{
-    margin: auto;
-    padding: 0;
-}
-
-/* lego */
+/*-------------- lego------------------ */
 #lego img{
     float: left;
     margin-right: 3%;
@@ -462,37 +216,7 @@ and (max-width:1024px){
     margin-bottom: 2%;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #lego img{
-        float: none;
-        width: 300px;
-    }
-    #lego{
-        text-align: center;
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #lego img{
-        
-        width: 360px;
-    }
-}
-
-/* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #lego img{
-        width: 370px;
-    }
-}
-
-/* pasta-chark */
+/* -------------pasta-chark-------------- */
 #pastasallad, #charktallrik{
     margin-top: 4%;
     margin-bottom: 10%;
@@ -501,7 +225,7 @@ and (max-width:1024px){
     text-align: end;
 }
 
-/* personal */
+/*--------------personal -------------*/
 #personal{
     margin: auto;
     max-width: 60%;
@@ -515,7 +239,7 @@ and (max-width:1024px){
     margin-top: 3%;
 }
 
-/* prislista */
+/* ----------------prislista ----------------*/
 #prislista{
     text-align: center; 
     margin-bottom: 10%;
@@ -525,7 +249,7 @@ and (max-width:1024px){
     margin-top: 2%;
 }
 
-/* Socialt kooperativ */
+/*-------------- Socialt kooperativ ---------------*/
 #socialt img{
     float: left;
     margin-right: 3%;
@@ -536,43 +260,13 @@ and (max-width:1024px){
     margin-bottom: 2%;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #socialt img{
-        float: none;
-        width: 300px;
-    }
-    #socialt{
-        text-align: center;
-    }
-}
-        /* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #socialt img{
-        
-        width: 430px;
-    }
-}
-
-/* Laptops */
-@media only screen
-and (min-width:769px) 
-and (max-width:1024px){
-    #socialt img{
-        width: 600px;
-    }
-}
-
-/* stadgar */
+/*------------- stadgar -----------------*/
 #stadgar{
     margin-top: 6%;
     margin-bottom: 6%;
 }
 
-/* styrelsen */
+/* ----------------styrelsen--------------- */
 #sammansättning{
     margin-bottom: 10%;
 }
@@ -582,37 +276,8 @@ and (max-width:1024px){
 #styrelsen{
     margin-top: 5%;
 }
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    #sammansättning{
-        text-align: center;
-    }
-    #styrelsen img{
-        height: 250px;
-    }
-    #styrelsen{
-        text-align: center;
-    }
-}
-/* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #sammansättning{
-        text-align: center;
-    }
-    #styrelsen img{
-        height: 300px;
-    }
-    #styrelsen{
-        text-align: center;
-    }
-    
-}
 
-/* sy-bilder */
-
+/*----------------- sy-bilder----------------- */
 #galleri{
     margin-top: 5%;
     margin-bottom: 15%;
@@ -628,7 +293,7 @@ and (max-width:768px){
     padding: 0;
 }
 
-/* syataljé */
+/* ---------------syataljé ------------------*/
 #sy-info{
     margin-bottom: 10%;
 }
@@ -640,40 +305,7 @@ and (max-width:768px){
     margin-top: 5%;
 }
 
-    /* Mobil */
-    @media only screen 
-    and (max-width:480px){
-        #sy-info img{
-            width:300px;   
-        }
-        #sy-info{
-            text-align: center;
-        }
-    }
-
-            /* Surfplatta */
-    @media only screen 
-    and (min-width:481px) 
-    and (max-width:768px){
-        #sy-info img{
-          width: 300px;
-        }
-        
-    }
-    
-
-    
-            /* Laptops */
-    @media only screen
-    and (min-width:769px) 
-    and (max-width:1024px){
-        #sy-info img{
-            width: 350px;
-        }
-    }
-    
-
-/* tårta */
+/*------------------ tårta/kakor osv-------------------- */
 #galleri{
     margin-top: 5%;
     margin-bottom: 15%;
@@ -682,6 +314,7 @@ and (max-width:768px){
 
 #galleri p{
     margin-bottom: 5%;
+    text-align: center;
 }
 
 #galleri img{
@@ -692,6 +325,7 @@ h5{
     color: black;
 }
 
+/* -----tillbaka knappen----*/
 #galleri a {
     text-decoration: none;
     display: inline-block;
@@ -714,7 +348,7 @@ h5{
     margin-bottom: 10px;
 }
 
-/* utbildning */
+/* ---------------------utbildning ------------------*/
 #utbildning img{
     margin-right: 5%;
     float: left;
@@ -724,35 +358,7 @@ h5{
     height: 40px;
 }
 
-/* Mobil */
-@media only screen 
-and (max-width:480px){
-    /* #utbildning{
-        text-align: center;
-    } */
-
-    #utbildning img{
-        float: none;
-        height: 300px;
-    }
-    #sammarbets img{
-        height: 40px;
-    }
-}
-/* Surfplatta */
-@media only screen 
-and (min-width:481px) 
-and (max-width:768px){
-    #utbildning img{
-        height: 40%;
-        
-    }
-    #sammarbets img{
-        height: 40px;
-    }
-}
-
-/* vilka-är-vi */
+/* ----------------------vilka-är-vi----------------- */
 #vi img{
     float: right;
     margin-right: 3%;
@@ -767,15 +373,106 @@ and (max-width:768px){
     float: left;
 }
 
-/* Mobil */
+
+/* -------------------------------Mobilanpassning------------------------------------- */
 @media only screen 
 and (max-width:480px){
+    #sammarbete img{
+        height: 50px;
+        margin-bottom: -70px;
+    }
+    #förslag img{
+        height: 33px;
+    }
+    #beställning img{
+        height: 20px;
+        width: 20px;
+    }
+
+    #sammarbete p, #förslag p, #beställning p, #adress p{
+        font-size: 10px;
+    }
+
+    #framsida img{
+        height: 210px;
+        width: 320px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #karta img{
+        height: 250px;
+    }
+    #karta{
+        text-align: center;
+    }
+    #adressuppg{
+        text-align: center;
+    }
+    #café img{
+        height: 250px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    #café{
+        text-align: center;
+        
+    }
+    #bild img{
+        height: 300px;
+    }
+    #bild{
+        text-align: center !important;
+    }
+    #cocktailflaggor{
+        text-align: center;
+    }
+    #frukost{
+        text-align: center;
+    }
+    #frukost img{
+        height: 300px;
+    }
+    #lego img{
+        float: none;
+        width: 300px;
+    }
+    #lego{
+        text-align: center;
+    }
+    #socialt img{
+        float: none;
+        width: 300px;
+    }
+    #socialt{
+        text-align: center;
+    }
+    #sammansättning{
+        text-align: center;
+    }
+    #styrelsen img{
+        height: 250px;
+    }
+    #styrelsen{
+        text-align: center;
+    }
+    #sy-info img{
+        width:300px;   
+    }
+    #sy-info{
+        text-align: center;
+    }
+    #utbildning img{
+        float: none;
+        height: 300px;
+    }
+    #sammarbets img{
+        height: 40px;
+    }
     #vi img{
         width: 300px;
         text-align: center !important;
         float: none;
     }
-
     #presentation img{
         float: none;
         width: 150px;
@@ -783,11 +480,89 @@ and (max-width:480px){
     #vi{
         text-align: center; 
     }
+    #galleri p{
+        margin-bottom: 7%;
+    }
+    
 }
-        /* Surfplatta */
+
+/* -------------------------------Surfplattaanpassning------------------------------------- */
 @media only screen 
 and (min-width:481px) 
 and (max-width:768px){
+    #sammarbete img{
+        height: 60px;
+        margin-bottom: -90px;
+    }
+    #förslag img{
+        height: 53px;
+    }
+    #beställning img{
+        height: 30px;
+        width: 30px;
+    }
+    #sammarbete p, #förslag p, #beställning p, #adress p{
+        font-size: 10px;
+    }
+    #framsida img{
+        height: 350px;
+        width: 470px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    #karta img{
+        height: 300px;
+    }
+    #karta{
+        text-align: center;
+    }
+    #adressuppg{
+        text-align: center;
+    }
+    #café img{
+        height: 270px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    #café{
+        text-align: center;
+    }
+    #bild img{
+        height: 300px;
+    }
+    #bild{
+        text-align: center !important;
+    }
+    #bild img{
+        height: 300px;
+    }
+    #lego img{
+        
+        width: 360px;
+    }
+    #socialt img{
+        
+        width: 430px;
+    }
+    #sammansättning{
+        text-align: center;
+    }
+    #styrelsen img{
+        height: 300px;
+    }
+    #styrelsen{
+        text-align: center;
+    }
+    #sy-info img{
+        width: 300px;
+    }
+    #utbildning img{
+        height: 40%;
+        
+    }
+    #sammarbets img{
+        height: 40px;
+    }
     #vi img{
         width: 400px;
         text-align: center !important;
@@ -797,4 +572,51 @@ and (max-width:768px){
         float: none;
         width: 150px;
     }
+    #galleri p{
+        margin-bottom: 7%;
+    }
 }
+    
+
+/* -------------------------------Laptopanpassning------------------------------------- */
+@media only screen
+and (min-width:769px) 
+and (max-width:1024px){
+    #sammarbete img{
+        height: 50px;
+    }
+    #förslag img{
+        height: 83px;
+    }
+    #beställning img{
+        height: 50px;
+        width: 50px;
+    }
+    #sammarbete p, #förslag p, #beställning p, #adress p{
+        font-size: 15px;
+    }
+    #framsida img{
+        height: 450px;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    } 
+    #karta img{
+        height: 350px;
+    } 
+    #café img{
+        height: 300px;
+    }
+    #lego img{
+        width: 370px;
+    }
+    #socialt img{
+        width: 600px;
+    }
+    #sy-info img{
+        width: 350px;
+    }
+    #galleri p{
+        margin-bottom: 7%;
+    }
+}
+/* ----------------------------------------------------------------------------------- */
