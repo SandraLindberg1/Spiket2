@@ -486,7 +486,9 @@ and (max-width:480px){
     #galleri p{
         margin-bottom: 7%;
     }
-    
+    #pasta, #chark{
+       text-align: center; 
+    }
 }
 
 /* -------------------------------Surfplattaanpassning------------------------------------- */
@@ -578,6 +580,10 @@ and (max-width:768px){
     #galleri p{
         margin-bottom: 7%;
     }
+    #pasta, #chark{
+        text-align: center; 
+    }
+    
 }
     
 
@@ -622,4 +628,3 @@ and (max-width:1024px){
         margin-bottom: 7%;
     }
 }
-/* ----------------------------------------------------------------------------------- */
